@@ -8,3 +8,21 @@
 #wpwt {
 	text-align: center;
 }
+#navigationbar {
+	display:table-row;
+	float:left;
+	width:100%;
+	background-color:black;
+}
+#link {
+	display:table-cell;
+}
+#LifestyleButton {
+	width: 400px;
+}
+#HistoryButton {
+	width:400px;
+}
+#ShopButton {
+	width:400px;
+}
