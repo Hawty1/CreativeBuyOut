@@ -19,7 +19,7 @@ margin-left:-75px;
 margin-right:auto;
 	}
 /* First Navigation Bar Dropdown */
-.GallerieButton {
+.LifestyleButton {
 	background-color:#D13040;
 	font-family:Abhaya Libre;
 	font-size:1.3em;
@@ -46,6 +46,32 @@ margin-right:auto;
 	display:block;
 }
 /* End */
+.GallerieButton {
+	background-color:#D13040;
+	font-family:Abhaya Libre;
+	font-size:1.3em;
+	border:none;
+	padding: 10px 24px;
+	color: #E7EFDB;
+	min-width:160px;
+	height:66px;
+	border-radius: 3px;
+	display:inline-block;
+}
+.dropdown1 {
+	position:relative;
+	display:inline-block;
+}	
+.GallerieDropdown{
+	display:none;
+	position: absolute;
+	background-color:#FFFF68;
+	padding:10%;
+}
+.dropdown1:hover .GallerieDropdown{
+	
+	display:block;
+}
 /*Second Navigation Bar Dropdown */
 .HistorieButton{
 	
@@ -88,6 +114,31 @@ margin-right:auto;
 	border-radius: 3px;
 }
 .dropdown3{
+	position:relative;
+	display:inline-block;
+}
+.ImpressumDropdown{
+	display:none;
+	position:absolute;
+	background-color:#FFFF68;
+	padding:10%;
+	min-width:100px;
+}
+.dropdown3:hover .ImpressumDropdown{
+		display:block;
+}
+.ArtistsButton{
+		background-color:#D13040;
+	font-family:Abhaya Libre;
+	font-size:1.3em;
+	border:none;
+	padding: 10px 24px;
+	color: #E7EFDB;
+	min-width:160px;
+	height:66px;
+	border-radius: 3px;
+}
+.dropdown4{
 	position:relative;
 	display:inline-block;
 }
