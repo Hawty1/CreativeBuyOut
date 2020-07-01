@@ -5,11 +5,32 @@
 <link rel="stylesheet" type="text/css" href="IndexStyle.css">
 </head>
 <body>
-<div id="navigationbar"> 
-<div id="link"> <input id="LifestyleButton" type="button" onclick="location.href='Lifestyle.html'" value="Lifestyle"/></div>
-<div id="link"> <input id="HistoryButton" type="button" onclick="location.href='Lifestyle.html'" value="History"/></div>
-<div id="link"> <input id="ShopButton" type="button" onclick="location.href='Lifestyle.html'" value="Shop"/></div>
-<div id="link"> <input id="MembersButton" type="button" onclick="location.href='Lifestyle.html'" value="Members Club"/></div>
+<ul class="navigationBar">
+	<div class="dropdown1"> <!-- Gallerie -->
+<li><button class="GallerieButton"> Gallerie </button>
+<div class="GallerieDropdown"> <!-- Gallerie Dropdown Menu Inhalt-->
+<a href=""> Pictures </a> </br>
+<a href=""> Videos </a>
 </div>
+</li>
+</div>
+<div class="dropdown2"> <!-- Historie -->
+<li><button class="HistorieButton"> Historie </button>
+<div class="HistorieDropdown"> 
+<a href=""> Presse Artikel </a>
+<a href="">	Dokumente	</a>
+ </div>
+ </li>
+</div>
+<div class="dropdown3"> <!-- Impressum -->
+<li>
+<button class="ImpressumButton"> Impressum </button>
+<div class="ImpressumDropdown"> 
+<a href=""> about the creator </a>
+<a href=""> Empfehlung </a>
+</div>
+</li>
+</div>
+</ul>
 </body>
 </html>
