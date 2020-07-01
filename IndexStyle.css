@@ -15,7 +15,7 @@ list-style-type: none;
 position: absolute;
 display: block;
 text-align: center;
-margin-left:auto;
+margin-left:-50px;
 margin-right:auto;
 	}
 /* First Navigation Bar Dropdown */
@@ -26,6 +26,7 @@ margin-right:auto;
 	padding: 10px 24px;
 	color: #E7EFDB;
 	min-width:160px;
+	height:66px;
 }
 .dropdown1 {
 	position:relative;
