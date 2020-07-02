@@ -1,0 +1,3 @@
+-indexStyle.css auf den wichtigsten code reduzieren (dropdownmenüs löschen, evtl die klassen der Buttons einheitlich machen).
+
+-Home.html inhalt bringen.
