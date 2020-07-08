@@ -17,7 +17,7 @@ list-style-type: none;
 position: absolute;
 display: block;
 text-align: center;
-margin-left:-75px;
+margin-left:-100px;
 margin-right:auto;
 	}
 /*Navigation Bar*/
@@ -28,11 +28,11 @@ margin-right:auto;
 .NaviButton{
 			background-color:#D13040;
 	font-family:Abhaya Libre;
-	font-size:1.3em;
+	font-size:1.1em;
 	border:none;
 	padding: 10px 24px;
 	color: #E7EFDB;
-	min-width:160px;
-	height:66px;
+	min-width:20em;
+	height:46px;
 	border-radius: 3px;
 }
