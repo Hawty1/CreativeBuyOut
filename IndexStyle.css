@@ -17,7 +17,7 @@ list-style-type: none;
 position: absolute;
 display: block;
 text-align: center;
-margin-left:-75px;
+margin-left:-100px;
 margin-right:auto;
 	}
 /*Navigation Bar*/
@@ -32,7 +32,7 @@ margin-right:auto;
 	border:none;
 	padding: 10px 24px;
 	color: #E7EFDB;
-	min-width:160px;
+	min-width:20em;
 	height:46px;
 	border-radius: 3px;
 }
