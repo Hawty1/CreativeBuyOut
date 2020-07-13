@@ -1,3 +1,4 @@
+ /* Index Page */
 #WelcomePic {
   display: block;
   margin-left: auto;
@@ -8,7 +9,9 @@
 #wpwt {
 	text-align: center;
 }
-/* WelcomePage End*/
+/* Index Page End*/
+
+/* Welcome Page */
 /*Navigation Bar*/
 .navigationBar {
 float: left;
@@ -26,13 +29,15 @@ margin-right:auto;
 	display:inline-block;
 }
 .NaviButton{
-			background-color:#D13040;
+	background-color:#D13040;
 	font-family:Abhaya Libre;
 	font-size:1.1em;
 	border:none;
 	padding: 10px 24px;
 	color: #E7EFDB;
-	min-width:20em;
+	min-width:25%;
 	height:46px;
 	border-radius: 3px;
 }
+/* Welcome Page ends */
+
